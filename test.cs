@@ -7,3 +7,17 @@
     Преобразовать = строка элемента .toString(консоль.ReadLine());
     arrayStrings[i] = элемент;
 }
+строка[] arrayFinal = новая  строка[размер];
+3 = len int;
+0 =  pos  int;
+
+для (int  j = 0; j < size; j ++)
+{
+    если (arrayStrings[j].Длина <= len)
+    {
+        arrayFinal[pos] = arrayStrings[j];
+        ++pos;
+    }
+}
+Консоль.WriteLine();
+printArray(arrayFinal);
